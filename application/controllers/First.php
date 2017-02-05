@@ -29,4 +29,13 @@ class First extends Application
 		$this->render();
 	}
 
+
+	/**
+	 * Homepage for our app
+	 */
+	public function zzz()
+	{
+		$this->index();
+	}
+
 }
