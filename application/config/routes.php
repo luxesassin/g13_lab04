@@ -70,3 +70,6 @@ $route['dunno'] = function() {
 // #7
 $route['^[a-zA-Z]{4}/bingo'] = 'bingo';
 
+//#8
+$route['^[a-zA-Z]{4}[0-9]{4}/wisdom'] = 'wise/bingo';
+
