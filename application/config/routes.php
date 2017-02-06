@@ -66,3 +66,7 @@ $route['dunno'] = function() {
    readfile($source); // dish it
    die(); // and we don't have to go any further
 };
+
+// #7
+$route['^[a-zA-Z]{4}/bingo'] = 'bingo';
+
